@@ -176,7 +176,7 @@
    .add_top_10 {
     margin-top:10px
    }
-   span.signup-link{
+   Link span .signup-link{
        color: #007bff;
        font-weight: 600;
        cursor: pointer;

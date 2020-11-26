@@ -4,6 +4,7 @@ import Landing from '../IMAGES/landing.svg'
 import { useFormik } from 'formik'
  import * as Yup from 'yup'
  import axios from 'axios'
+ import {  Link } from "react-router-dom"
 
 
 export default function Register() {
@@ -130,8 +131,7 @@ export default function Register() {
                             			</div>
 									</div>
 									 <button type="submit" className="btn_1 rounded full-width">CONTINUE</button>
-									{/* <div className="text-center add_top_10">Already have an account? <strong><a
-										href="signin">Log In</a></strong></div> */}
+									 <div className="text-center add_top_10"><p>Already have an account? <span className='login-link'><Link to ='/Login'>Log In!</Link>  </span></p></div> 
 								</form>
                             </aside>
 	                    </div>
