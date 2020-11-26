@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-// import Register from './components/Register'
-import Forgotpassword from './components/forgot_password'
+import Register from './components/Register'
+// import Forgotpassword from './components/forgot_password'
+import Login from './components/Login'
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Forgotpassword />
+    <Register/>
   </React.StrictMode>,
   document.getElementById('root')
 );
